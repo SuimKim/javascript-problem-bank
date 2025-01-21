@@ -13,6 +13,7 @@
 
 function calcTotal(price, quantity) {
   //Todo
+  return quantity !== null ? price * quantity : price;
 }
 
 // export 를 수정하지 마세요.

@@ -11,6 +11,7 @@
 
 function introduce(name, age) {
   // TODO
+  return age !== null ? `안녕하세요! 저는 ${name}, 나이는 ${age}입니다.` : "비공개"
 }
 
 // export 를 수정하지 마세요.

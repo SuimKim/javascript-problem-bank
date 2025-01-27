@@ -8,8 +8,12 @@
  * @param {object} obj
  * @returns {string[]}
  */
+
 function getObjectKeys(obj) {
   // TODO
+  let list = Object.keys(obj);
+
+  return list;
 }
 
 // export를 수정하지 마세요.

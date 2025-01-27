@@ -11,7 +11,11 @@
  */
 function getObjectValues(obj) {
   // TODO
+  let list = Object.values(obj)
+  return list;
 }
 
 // export를 수정하지 마세요.
 export { getObjectValues };
+
+

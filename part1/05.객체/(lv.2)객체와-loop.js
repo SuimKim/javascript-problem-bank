@@ -10,6 +10,11 @@
  */
 function countProperties(obj) {
   // TODO
+  const arr = [];
+  for (const key in obj) {
+    arr.push(key);
+  }
+  return arr.length;
 }
 
 export { countProperties };
